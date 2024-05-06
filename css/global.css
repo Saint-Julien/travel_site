@@ -1,7 +1,95 @@
 *,
-*::before
+*::before,
 *::after {
     box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem
+}
+
+.navbar__link {
+    color: #335576;
+    text-decoration: none;
+}
+
+
+.navbar__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__listitem {
+    margin-right: 10px;
+}
+
+.navbar__listitem a {
+    text-decoration: none;
+    color: #335576;
+    font-size: 1.5rem;
+}
+
+.tagline-hero__container {
+    display: flex;
+    background-color: #fff0ed; /* Just for demonstration */
+    height: 40rem;
+  }
+
+  .tagline-hero__box1 h1 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 03rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    width: 60%;
+    color: #335576;
+
+  }
+
+.tagline-hero__about      { 
+    display:flex
+  
+    
+}
+
+  .tagline-hero__box2 img {
+    width: 70%;
 
 }
 
+.Recomendations__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /* Add space between the cards */
+}
+
+.recomendations__image {
+    width: 500px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
