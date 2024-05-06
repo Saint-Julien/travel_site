@@ -57,7 +57,7 @@ body {
 
 .tagline-hero__container {
     display: flex;
-    background-color: #fff0ed; /* Just for demonstration */
+    background-color: #fff0ed; 
     height: 40rem;
   }
 
