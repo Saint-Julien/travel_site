@@ -23,8 +23,8 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
+}
+
 
 .navbar {
     display: flex;
@@ -54,14 +54,14 @@ body {
     color: #335576;
     font-size: 1.5rem;
 }
-
+:
 .tagline-hero__container {
     display: flex;
-    background-color: #fff0ed; 
+    background-color: #fff0ed;
     height: 40rem;
-  }
+}
 
-  .tagline-hero__box1 h1 {
+.tagline-hero__box1 h1 {
     display: flex;
     justify-content: space-evenly;
     font-size: 03rem;
@@ -70,18 +70,17 @@ body {
     width: 60%;
     color: #335576;
 
-  }
-
-.tagline-hero__about      { 
-    display:flex
-  
-    
 }
 
-  .tagline-hero__box2 img {
+.tagline-hero__about {
+    display: flex
+}
+
+.tagline-hero__box2 img {
     width: 70%;
 
 }
+
 .Recomendations__container {
     display: flex;
     justify-content: space-between;
@@ -94,20 +93,19 @@ body {
     border-radius: .625rem;
     overflow: hidden;
     margin-bottom: 5rem;
-    
+
 }
 
 .recomendations__image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: .625rem  ;
+    border-radius: .625rem;
 }
 
 .card-link {
     position: absolute;
-    bottom: 10rem
-    right: 10px;
+    bottom: 10rem right: 10px;
     color: white;
     text-decoration: none;
     font-weight: bold;
